@@ -19,7 +19,7 @@ function Counter() {
   return (
     <div className="counter">
       <h1>Counter App</h1>
-      <h4>Cont: {countValue}</h4>
+      <h4>Count: {countValue}</h4>
       <div>
         <button onClick={increment}> Increment</button>
         <button onClick={decrement}>Decrement</button>
